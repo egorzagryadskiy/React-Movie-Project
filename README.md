@@ -1,12 +1,32 @@
-# React + Vite
+# КиноСёрфер🌊
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Приложение для поиска хорошего фильма на вечер. Написано на **React + Vite**.
 
-Currently, two official plugins are available:
+<img width="1772" height="803" alt="screenshot" src="https://github.com/user-attachments/assets/8c43343b-e211-48e1-962c-7eec4b0831f9" />
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌟 Возможности
+- Просмотр популярных фильмов
+- Новинки кинопроката
+- Топ-рейтинговые фильмы
+- Поиск по названию
+- Детальная страница фильма с описанием, рейтингом и датой выхода
 
-## Expanding the ESLint configuration
+## 🛠 Технологии
+- **React** — современный UI-фреймворк
+- **Vite** — быстрая сборка и dev-сервер
+- **TMDb API** — данные о фильмах
+- **Axios / Fetch** — HTTP-запросы
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ▶️ Запуск локально
+
+1. Клонируйте репозиторий:
+   ```bash
+   git clone https://github.com/ваш-логин/movie-explorer.git
+   cd movie-explorer
+2. Установите зависимости:
+   npm install
+3. Создайте файл .env в корне проекта
+   VITE_TMDB_API_KEY=ваш_api_ключ
+   (🔑 Получить бесплатный API-ключ можно на TMDb → Settings → API)
+4. Запустите dev-сервер: npm run dev
+5. Откройте http://localhost:5173 в браузере.
