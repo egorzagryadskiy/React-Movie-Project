@@ -1,0 +1,7 @@
+.loader {
+    margin-top: 30px;
+    font-family: var(--font-family-base);
+    font-weight: 700;
+    font-size: 24px;
+    color: var(--color-dark-accent);
+}

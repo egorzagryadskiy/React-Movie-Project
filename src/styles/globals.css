@@ -1,0 +1,15 @@
+.container {
+  max-width: calc(var(--container-width) + var(--container-padding-x) * 2);
+  margin-inline: auto;
+  padding-inline: var(--container-padding-x);
+}
+
+a {
+    text-decoration: none;
+    transition-duration: var(--transition-duration);
+    font-family: var(--font-family-base);
+}
+
+html {
+  scrollbar-gutter: unset;
+}

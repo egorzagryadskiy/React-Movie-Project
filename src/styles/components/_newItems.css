@@ -1,0 +1,13 @@
+.newitems__title {
+    font-family: var(--font-family-base);
+    font-size: 18px;
+    color: var(--color-dark-accent);
+}
+
+.newitems__container {
+    border-top: var(--border);
+    border-bottom: var(--border);
+    margin-top: 30px;
+    padding-bottom: 40px;
+    max-width: 100%;
+}
